@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 101%;
+    margin-top: 35px;
+}
+
+.form {
+    padding: 50px;
+    width: 450px;
+    border-radius: 18px;
+    border: 4px dashed rgb(55, 0, 128);
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    min-width: 300px;
+    width: 100%;
+    padding: 7px 17px;
+    border: rgb(81, 0, 128) 1px dashed;
+}
+
+.form button {
+    margin-top: 15px;
+    margin-left: auto;
+    border: rgb(81, 0, 128) 1px dashed;
+    background: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: rgb(77, 0, 128);
+    cursor: pointer;
+}
+
+.form button:focus, .form input:focus {
+    outline: none;
+}
+
+.connection_message {
+    width: 500px;
+    text-align: center;
+}
+
+.message {
+    width: 300px;
+    border: 3px dashed rgb(49, 0, 128);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
